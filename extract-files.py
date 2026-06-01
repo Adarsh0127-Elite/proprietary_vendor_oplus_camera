@@ -23,6 +23,8 @@ namespace_imports = [
 blob_fixups: blob_fixups_user_type = {
     'odm/lib64/libAncHumVideoBase.so': blob_fixup()
         .add_needed('libnativewindow.so'),
+    'odm/lib64/libAncHumVideoBasePost.so': blob_fixup()
+        .add_needed('libnativewindow.so'),
 }
 
 module = ExtractUtilsModule(
