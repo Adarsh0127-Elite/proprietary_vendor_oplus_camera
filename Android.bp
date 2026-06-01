@@ -24,13 +24,13 @@ soong_namespace {
 android_app_import {
     name: "OplusCamera",
     owner: "oplus",
-    apk: "proprietary/product/priv-app/OplusCamera/OplusCamera.apk",
+    apk: "proprietary/system_ext/priv-app/OplusCamera/OplusCamera.apk",
     certificate: "platform",
     dex_preopt: {
         enabled: false,
     },
     privileged: true,
-    product_specific: true,
+    system_ext_specific: true,
     overrides: ["Camera2", "Aperture"],
 }
 
@@ -52,5 +52,12 @@ dex_import {
     name: "oplus-support-wrapper",
     owner: "oplus",
     jars: ["proprietary/system_ext/framework/oplus-support-wrapper.jar"],
+    system_ext_specific: true,
+}
+
+dex_import {
+    name: "androidx.camera.extensions.impl",
+    owner: "oplus",
+    jars: ["proprietary/system_ext/framework/androidx.camera.extensions.impl.jar"],
     system_ext_specific: true,
 }

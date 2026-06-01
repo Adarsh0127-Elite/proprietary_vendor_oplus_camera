@@ -20,8 +20,6 @@ namespace_imports = [
 ]
 
 blob_fixups: blob_fixups_user_type = {
-    # Dictionary for blob fixups. Left empty unless MediaTek 
-    # specific patchelf modifications are required later.
 }
 
 module = ExtractUtilsModule(
