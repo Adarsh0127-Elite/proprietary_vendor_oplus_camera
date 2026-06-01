@@ -17,6 +17,7 @@ namespace_imports = [
     'device/oneplus/vitamin',
     'hardware/oplus',
     'vendor/oplus/camera',
+    'vendor/oneplus/vitamin',
 ]
 
 blob_fixups: blob_fixups_user_type = {

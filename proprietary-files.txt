@@ -5,6 +5,9 @@
 my_product/app/OplusCamera/OplusCamera.apk:system_ext/priv-app/OplusCamera/OplusCamera.apk;OVERRIDES=Camera2,Aperture
 system_ext/framework/androidx.camera.extensions.impl.jar
 system_ext/etc/sys_camera_optimize_config.xml
+system_ext/lib64/libHeifEncoderWrapper.so
+system_ext/lib64/libNativeWinBuffExchange.so
+system_ext/lib64/liboplusheifwriter.so
 odm/etc/camera/config/oplus_camera_algo_switch_config
 odm/etc/camera/config/camera_unit_config
 odm/etc/camera/config/camera_unit_feature_config.protobuf
@@ -22,6 +25,7 @@ odm/etc/virtualcamera.json
 -odm/lib64/vendor.oplus.hardware.virtual_device.camera.provider@2.5-impl.so
 -odm/lib64/vendor.oplus.hardware.virtual_device.camera.provider@2.6-impl.so
 -odm/lib64/vendor.oplus.hardware.virtual_device.camera.provider@2.7-impl.so
+-odm/lib64/vendor.oplus.hardware.virtual_device.camera.hal@3.3.so
 -odm/lib64/libapsultrahdr.so
 -odm/lib64/libapsyuv.so
 -odm/lib64/libapsexif.so
@@ -42,6 +46,8 @@ odm/etc/virtualcamera.json
 -odm/lib64/libAncSegmentSdk.so
 -odm/lib64/libAncHumanDoubleExposure.so
 -odm/lib64/libAncHumanRetain.so
+-odm/lib64/libArcNetMtk.so
+-odm/lib64/libcalibverifyW_T.so
 -odm/lib64/libarcsoft_dualcam_refocus_frt_preview.so
 -odm/lib64/libarcsoft_lensstaindetection.so
 -odm/lib64/libarcsoft_dualcam_refocus_frt_image.so
