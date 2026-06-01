@@ -20,8 +20,6 @@ PRODUCT_PACKAGES += \
     libHeifEncoderWrapper \
     libNativeWinBuffExchange \
     liboplusheifwriter \
-    anc.capacitive.hal \
-    anc.hal \
     libAncFilter \
     libAncHumBokeh \
     libAncHumBokehPost \
@@ -69,9 +67,6 @@ PRODUCT_PACKAGES += \
     libcalibverifyW_T \
     libexif-jpeg-aps \
     libhyperlapse \
-    vendor.oplus.hardware.camera_rfi-V1-ndk_platform \
-    vendor.oplus.hardware.cameraextension-V1-ndk_platform \
-    vendor.oplus.hardware.cammidasservice-V1-ndk_platform \
     vendor.oplus.hardware.virtual_device.camera.hal@3.3 \
     vendor.oplus.hardware.virtual_device.camera.manager@1.0-impl \
     vendor.oplus.hardware.virtual_device.camera.manager@1.0 \

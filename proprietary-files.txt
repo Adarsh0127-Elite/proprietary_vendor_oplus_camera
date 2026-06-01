@@ -16,9 +16,6 @@ odm/etc/camera/config/oplus_camera_aps_config
 odm/etc/camera/eis_camera.vcfg
 odm/etc/camera/CameraHWConfiguration.config
 odm/etc/virtualcamera.json
--odm/lib64/vendor.oplus.hardware.camera_rfi-V1-ndk_platform.so
--odm/lib64/vendor.oplus.hardware.cameraextension-V1-ndk_platform.so
--odm/lib64/vendor.oplus.hardware.cammidasservice-V1-ndk_platform.so
 -odm/lib64/vendor.oplus.hardware.virtual_device.camera.manager@1.0.so
 -odm/lib64/vendor.oplus.hardware.virtual_device.camera.manager@1.0-impl.so
 -odm/lib64/vendor.oplus.hardware.virtual_device.camera.provider@2.4-impl.so
@@ -39,8 +36,6 @@ odm/etc/virtualcamera.json
 -odm/lib64/libAncHumVideoBase.so
 -odm/lib64/libAncHumVideoBasePost.so
 -odm/lib64/libAncFilter.so
--odm/lib64/anc.hal.so
--odm/lib64/anc.capacitive.hal.so
 -odm/lib64/libAncHumBokeh.so
 -odm/lib64/libAncHumBokehPost.so
 -odm/lib64/libAncSegmentSdk.so
