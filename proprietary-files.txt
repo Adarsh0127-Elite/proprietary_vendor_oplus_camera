@@ -56,7 +56,7 @@ odm/etc/virtualcamera.json
 -odm/lib64/libarcsoft_aicolor_video.so
 -odm/lib64/libarcsoft_aicolor_image.so
 -odm/lib64/libarcsoft_low_light_hdr.so
--odm/lib64/libarcsoft_low_light_hdr_for_neon.so
+odm/lib64/libarcsoft_low_light_hdr_for_neon.so;FIX_SONAME
 -odm/lib64/libarcsoft_psn_mtk_apu.so
 -odm/lib64/libarcsoft_sn_mtk_apu.so
 -odm/lib64/libarcsoft_dualcam_refocus_left.so
