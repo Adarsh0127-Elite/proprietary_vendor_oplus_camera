@@ -1,0 +1,5 @@
+allow platform_app hal_camera_hwservice:hwservice_manager find;
+allow platform_app hal_camera_default:binder call;
+
+allow platform_app proc_mtk_jpeg:file rw_file_perms;
+allow platform_app sysfs_camera:file rw_file_perms;

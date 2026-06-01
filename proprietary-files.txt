@@ -1,0 +1,16 @@
+## All proprietary files from this list, unless pinned and noted otherwise,
+## are from Oneplus Nord 3 5G
+
+# Camera
+product/priv-app/OplusCamera/OplusCamera.apk
+system_ext/framework/com.oplus.camera.unit.sdk.jar
+system_ext/framework/com.oplus.camera.unit.sdk.adapter.jar
+system_ext/framework/oplus-support-wrapper.jar
+product/etc/permissions/com.oplus.camera.unit.sdk.xml
+product/etc/permissions/com.oplus.camera.unit.sdk.adapter.xml
+system_ext/etc/permissions/oplus-support-wrapper.xml
+vendor/lib64/libOplusCameraInterface.so
+vendor/lib64/liboplus_camera_extension.so
+vendor/lib64/hw/camera.mt6983.so
+vendor/etc/camera/license_release.lic
+vendor/etc/camera/sensetime_license.lic

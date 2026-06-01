@@ -1,0 +1,3 @@
+on boot
+    chmod 0666 /dev/mtk_jpeg
+    chmod 0666 /dev/video0
